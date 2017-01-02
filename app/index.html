@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<title>Abemar</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+		<link rel="icon" type="image/png" href="static/images/logo_64.png" />
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- build:css(app) static/styles/vendor.css -->
+		<!-- bower:css -->
+		<link rel="stylesheet" href="static/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<!-- endbower -->
+		<link rel="stylesheet" href="static/styles/layout.css" />
+		<link rel="stylesheet" href="static/styles/home.css" />
+		<!-- endbuild -->
+
+		<!-- build:js(app) static/scripts/vendor.js -->
+		<!-- bower:js -->
+		<script src="static/bower_components/angular/angular.js"></script>
+		<script src="static/bower_components/jquery/dist/jquery.js"></script>
+		<script src="static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="static/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+		<script src="static/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<!-- endbower -->
+		<!-- endbuild -->
+	</head>
+	<body>
+		<ui-view></ui-view>
+
+		<!-- build:js(app) static/scripts/app.js -->
+		<script src="static/scripts/app.js"></script>
+		<script src="static/scripts/routes.js"></script>
+
+		<script src="static/scripts/controllers/layout.js"></script>
+		<script src="static/scripts/controllers/home.js"></script>
+
+		<script src="static/scripts/services/lang.js"></script>
+		<!-- endbuild -->
+	</body>
+</html>

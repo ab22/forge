@@ -1,0 +1,26 @@
+{
+  "name": "abemar",
+  "version": "0.0.1",
+  "description": "Web application",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "angular-bootstrap": "^2.3.2",
+    "angular-ui-router": "^0.3.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.min.js",
+        "dist/css/bootstrap.min.css"
+      ]
+    }
+  }
+}

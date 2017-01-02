@@ -1,0 +1,119 @@
+.banner-section:before {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 600px;
+	width: 100%;
+	content: '\A';
+	position: absolute;
+}
+
+.banner-section {
+	background-image: url(../images/fiber_crop.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+	width: 100%;
+}
+
+.banner-content {
+	height: 600px;
+	padding-top: 170px;
+	color: #fff;
+	font-size: 58px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 80px;
+	padding-top: 200px;
+	font-family: Open Sans
+}
+
+.main-logo {
+	max-width: 350px;
+	width: 100%;
+}
+
+.title-separator {
+	background: #db4925 none repeat scroll 0 0;
+	display: block;
+	height: 2px;
+	margin: 15px auto;
+	position: relative;
+	width: 60px
+}
+
+.round-box {
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+	height: 80px;
+	line-height: 90px;
+	margin-bottom: 30px;
+	text-align: center;
+	width: 80px;
+	transition: .5s;
+	position: relative;
+}
+
+.cities-title {
+	padding-bottom: 10px;
+	border-bottom: #db4925 2px solid;
+}
+
+.common-section {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.blue-section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #0091ea;
+	color: white;
+}
+
+.odd-section-background {
+	background-color: #f9f9f9;
+}
+
+.contact-info {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1)
+}
+
+.contact-info > div {
+	padding-bottom: 20px;
+}
+
+.contact-info > h4 > i {
+	color: #ff5f83;
+}
+
+.footer-section {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #040e18;
+	color: white;
+}
+
+.btn-lang {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 2px solid #fff;
+	border-radius: 500px;
+	color: white;
+	margin: 10px 10px 0;
+	padding: 12px 36px;
+	transition: all 0.3s ease 0s;
+}
+
+.btn-lang:hover {
+	color: white;
+	background-color: #db4925;
+	border-color: #db4925;
+}
+
+.btn-lang:focus {
+	color: white;
+}
