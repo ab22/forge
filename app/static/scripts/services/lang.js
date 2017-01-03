@@ -8,9 +8,22 @@
 				subTitle: '25 años de servicio',
 				services: {
 					title: 'Servicios',
-					wirelessTitle: 'Internet Inálambrico',
-					camerasTitle: 'Instalación de Camaras de Vigilancia',
-					fiberTitle: 'Internet por Fibra Óptica'
+					wireless: {
+						title: 'Internet Inalámbrico',
+						content: 'Contamos con la mejor estructura inalámbrica en Puerto Cortés con servicio sin interrumpciones 24/7 y atención inmediata. Nuestro servicio esta orientado a empresas, agencias navieras ó aduaneras, pequeños negocios y residencias.'
+					},
+					cameras: {
+						title: 'Camaras de Vigilancia',
+						content: 'Instalación de cámaras de vigilancia para monitoreo de su empresa o casa desde cualquier dispositivo y desde parte del mundo.'
+					},
+					fiber: {
+						title: 'Internet por Fibra Óptica',
+						content: 'Cobertura en toda la ciudad de Puerto Cortés y enlace de su empresa en cualquier parte de Honduras a través de Canal de Datos e Internet para un mejor manejo de ambiente de trabajo en su empresa. Ancho de banda garantizado.'
+					},
+					telephony: {
+						title: 'Telefonía IP',
+						content: 'Contamos con el servicio de telefonía IP para empresas o casas de habitación con la cantidad de números que requieras.'
+					}
 				},
 				citiesAvailable: {
 					title: 'Ciudades Disponible'
@@ -40,9 +53,22 @@
 				subTitle: '25 years of service',
 				services: {
 					title: 'Services',
-					wirelessTitle: 'Wireless Internet',
-					camerasTitle: 'Surveillance Cameras Setup',
-					fiberTitle: 'Fiber Internet'
+					wireless: {
+						title: 'Wireless Internet',
+						content: 'The best wireless structure in Puerto Cortés with uninterrumpted service 24/7 and immediate support. Our service is oriented for businesses, shipping or custom agencies and homes.'
+					},
+					cameras: {
+						title: 'Surveillance Cameras Setup',
+						content: 'Live monitoring for your home or business from any part of the world on any device.'
+					},
+					fiber: {
+						title: 'Fiber Internet',
+						content: 'Coverage in all of Puerto Cortés for home and business plans. Coverage available in all of Honduras for business plans through Data Channels and Internet. Bandwidth guaranteed.'
+					},
+					telephony: {
+						title: 'IP Telephony',
+						content: 'Available for homes and businesses with the amount of numbers you require.'
+					}
 				},
 				citiesAvailable: {
 					title: 'Cities Available'
