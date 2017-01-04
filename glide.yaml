@@ -1,4 +1,0 @@
-package: github.com/ab22/forge
-import:
-- package: github.com/ab22/env
-  version: ^1.0.0

@@ -25,8 +25,8 @@
 						content: 'Contamos con el servicio de telefonía IP para empresas o casas de habitación con la cantidad de números que requieras.'
 					}
 				},
-				citiesAvailable: {
-					title: 'Ciudades Disponible'
+				reach: {
+					title: 'Alcance'
 				},
 				contact: {
 					address: {
@@ -70,8 +70,8 @@
 						content: 'Available for homes and businesses with the amount of numbers you require.'
 					}
 				},
-				citiesAvailable: {
-					title: 'Cities Available'
+				reach: {
+					title: 'Places We Reach'
 				},
 				contact: {
 					address: {
